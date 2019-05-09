@@ -40,5 +40,5 @@ private:
 
 而在子类ServiceAccessor操作etcd_client_是操作的其本身的etcd_client_，并不是父类accessor的etcd_client_，对其进行->操作，势必会触发assert，导致出core。
 
-其实这个bug应该很容易发现，但是因为下面的代码和上面的代码不在一个文件中，下面的在service.h，上面的在service.cpp，所以只看service.cpp是很难发现在ServiceAccessory中多了一个etcd_client_;
+其实这个bug应该很容易发现，但是因为下面的代码和上面的代码不在一个文件中，下面的在service.h，上面的在service.cpp，所以只看service.cpp是很难发现在ServiceAccessory中多了一个etcd_client_。
 
