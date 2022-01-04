@@ -1,7 +1,6 @@
 apache/pulsar future和promise源码记录
 https://github.com/apache/pulsar/blob/a54c6c003c626cb16d90200ad81dd3ec37be2133/pulsar-client-cpp/lib/Future.h
 
-
 ```c++
 /**
  * Licensed to the Apache Software Foundation (ASF) under one
