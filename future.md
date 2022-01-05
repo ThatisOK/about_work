@@ -164,3 +164,7 @@ class Void {};
 
 #endif /* LIB_FUTURE_H_ */
 ```
+
+
+参考资料
+[C++中Future和Promise的一种简单实现](https://blog.51cto.com/u_15127564/2665700)
