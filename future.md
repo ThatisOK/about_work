@@ -1,4 +1,4 @@
-apache/pulsar future和promise源码记录
+apache/pulsar future和promise源码记录  
 https://github.com/apache/pulsar/blob/a54c6c003c626cb16d90200ad81dd3ec37be2133/pulsar-client-cpp/lib/Future.h
 
 ```c++
@@ -166,5 +166,5 @@ class Void {};
 ```
 
 
-参考资料
+参考资料  
 [C++中Future和Promise的一种简单实现](https://blog.51cto.com/u_15127564/2665700)
